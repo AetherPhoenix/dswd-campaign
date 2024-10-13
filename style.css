@@ -1,0 +1,33 @@
+@font-face {
+    font-family: century2;
+    src: url('SCHLBKB.TTF');
+}
+@font-face {
+    font-family: myFont;
+    src: url('Shancalluna_regular.ttf');
+}
+.textile {
+    margin: 0 100px;
+}
+#Head {
+    text-align: center;
+    font-size: 100px;
+    font-family: myFont;
+}
+body {
+    background-image: url('image/dswd.jpg');
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+p {
+    margin: 25px 25px 25px 25px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: century2;
+}
+#brp {
+    display: block;
+    content: "";
+    margin-top: 75px;
+}
